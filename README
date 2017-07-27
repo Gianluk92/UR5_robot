@@ -1,0 +1,15 @@
+The UR5 robot is an industrial robot easy to use. 
+
+In this project I use the robotic toolbox by Peter Corck to simulate its behaviour.
+
+-----------------------------------------------------------------------------------
+Main optimizzation
+
+1) Collision detection -> Collision between object and link
+                          Collision between object and joint
+                          Collision between object and EE
+
+2) Singularities Avoidance Trajectory
+
+For change the main object structure change the file called train structure.
+The object is build by the pHRIWARE.
